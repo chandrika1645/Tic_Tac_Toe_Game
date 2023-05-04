@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="TickTacToe.css">
+    <title>Tick-Tac-Toe</title>
+</head>
+<body>
+    <main>
+        <h1>Tic-Tac-Toe</h1>
+        <div class="playing-board">
+            <div id="b11" onclick="playerMove('.b11'); playerMove('.b11'); " class="b11"></div>
+            <div id="b12" onclick="playerMove('.b12'); " class="b12"></div>
+            <div id="b13" onclick="playerMove('.b13'); " class="b13"></div>
+            <div id="b21" onclick="playerMove('.b21'); " class="b21"></div>
+            <div id="b22" onclick="playerMove('.b22'); " class="b22"></div>
+            <div id="b23" onclick="playerMove('.b23'); " class="b23"></div>
+            <div id="b31" onclick="playerMove('.b31'); " class="b31"></div>
+            <div id="b32" onclick="playerMove('.b32'); " class="b32"></div>
+            <div id="b33" onclick="playerMove('.b33'); " class="b33"></div>
+        </div>
+        <div class="scoreboard">
+            <button class="reset-button" onclick="reset()"> 
+                Reset
+            </button>
+            <p id="print" class="print"></p>
+        </div>
+        <h6>Developed by Aditya Jaiswal</h6>
+    </main>
+
+    <script src="/Tick Tac Toe/TickTacToe.js"></script>
+</body>
+</html>
